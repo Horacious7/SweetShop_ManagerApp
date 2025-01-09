@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="817.0" prefWidth="1045.0" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="cakesListView" layoutX="66.0" layoutY="41.0" prefHeight="368.0" prefWidth="215.0" AnchorPane.topAnchor="41.0" />
+      <ListView fx:id="ordersListView" layoutX="371.0" layoutY="41.0" prefHeight="368.0" prefWidth="487.0" />
+      <Button fx:id="addCakeButton" layoutX="66.0" layoutY="455.0" mnemonicParsing="false" onAction="#addCakeHandler" text="Add Cake" />
+      <Button fx:id="deleteCakeButton" layoutX="150.0" layoutY="625.0" mnemonicParsing="false" onAction="#deleteCakeHandler" text="Delete Cake" />
+      <Button fx:id="updateCakeButton" layoutX="197.0" layoutY="455.0" mnemonicParsing="false" onAction="#updateCakeHandler" text="Update Cake" />
+      <Button fx:id="filterCakesByFlavourButton" layoutX="123.0" layoutY="500.0" mnemonicParsing="false" onAction="#filterCakesByFlavourHandler" text="Filter Cakes by Flavour" />
+      <Button fx:id="filterByPriceRangeButton" layoutX="112.0" layoutY="550.0" mnemonicParsing="false" onAction="#filterByPriceRangeHandler" text="Filter Cakes by Price Range" />
+      <Button fx:id="placeOrderButton" layoutX="429.0" layoutY="455.0" mnemonicParsing="false" onAction="#placeOrderHandler" text="Place Order" />
+      <Button fx:id="deleteOrderButton" layoutX="753.0" layoutY="455.0" mnemonicParsing="false" onAction="#deleteOrderHandler" text="Delete Order" />
+      <Button fx:id="updateOrderButton" layoutX="625.0" layoutY="455.0" mnemonicParsing="false" onAction="#updateOrderHandler" text="Update Order" />
+      <Button fx:id="filterOrdersByStatusButton" layoutX="429.0" layoutY="500.0" mnemonicParsing="false" onAction="#filterOrdersByStatusHandler" text="Filter Orders by Status" />
+      <Button fx:id="filterOrdersByCustomerNameButton" layoutX="551.0" layoutY="625.0" mnemonicParsing="false" onAction="#filterOrdersByCustomerNameHandler" text="Filter Orders by Customer Name" />
+      <Button fx:id="filterOrdersByAddressHandler" layoutX="732.0" layoutY="500.0" mnemonicParsing="false" onAction="#filterOrdersByAddressHandler" text="Filter Orders By Address Handler" />
+      <Button fx:id="orderCountByCustomerHandler" layoutX="429.0" layoutY="537.0" mnemonicParsing="false" onAction="#orderCountByCustomerHandler" text="Number of order by Customer" />
+      <Button fx:id="filterOrdersByOrderDateHandler" layoutX="625.0" layoutY="537.0" mnemonicParsing="false" onAction="#filterOrdersByOrderDateHandler" text="Filter orders by date" />
+      <Button fx:id="orderCountPerCakeHandler" layoutX="429.0" layoutY="575.0" mnemonicParsing="false" onAction="#orderCountPerCakeHandler" text="Number for every type of cakes that were ordered" />
+      <Button fx:id="totalAmountByCustomerHandler" layoutX="753.0" layoutY="575.0" mnemonicParsing="false" onAction="#totalAmountByCustomerHandler" text="The total amount a customer has to pay" />
+   </children>
+</AnchorPane>
